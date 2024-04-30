@@ -19,3 +19,10 @@ This project is aimed at predicting obesity levels based on various factors such
 - 
 ## Contact
 For any inquiries or suggestions, please contact [malviyaraj2004@gmail.com]
+
+## Images
+Home-page:![Screenshot 2024-04-26 230335](https://github.com/rajat-malvi/ObacityPridictor/assets/143414044/d39d6ad9-d7f8-4911-a1be-81cfb5a7b2b2)   
+Form-page: ![Screenshot 2024-04-26 235055](https://github.com/rajat-malvi/ObacityPridictor/assets/143414044/e7d65b7f-182a-4de8-8632-c281a34ad04f)   
+Report-page: ![Screenshot 2024-04-26 235517](https://github.com/rajat-malvi/ObacityPridictor/assets/143414044/33a61222-6a03-4b1f-8f36-bda07c80ebfd)
+
+---
