@@ -48,8 +48,9 @@ app.secret_key = os.environ.get('SECRET_KEY')
 app.config['PERMANENT_SESSION_LIFETIME'] = 3600*24*7
 
 oauth = OAuth(app)
-# client_id = '630606159234-p9u62ohjjdoqsngd5pgd7ob2salaivio.apps.googleusercontent.com'
-# client_secret = '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'
+# found at google console
+client_id = 'clint_id'
+client_secret = 'your secret'
 redirect_uri = 'http://localhost:5000/loginnew'
 
 google = oauth.register(
@@ -112,8 +113,8 @@ def logout():
 # Mail configuration
 app.config["MAIL_SERVER"] = 'smtp.gmail.com'
 app.config["MAIL_PORT"] = 465
-app.config["MAIL_USERNAME"] = 'malviyaji6281@gmail.com'  # Update with your Gmail email
-app.config['MAIL_PASSWORD'] = 'uswo thvi ogxi kkbi'  # Update with your Gmail password
+app.config["MAIL_USERNAME"] = 'your gmail'  # Update with your Gmail email
+app.config['MAIL_PASSWORD'] = 'your passwoed'  # Update with your Gmail password
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 
