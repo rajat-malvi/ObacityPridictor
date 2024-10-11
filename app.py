@@ -240,6 +240,3 @@ def portal():
             
         return render_template('user.html', data=data, plot_div=plot_div, predicted_classes=predicted_classes, helth=helth)
     return render_template('form.html')
-
-if __name__ == '__main__':
-    app.run(debug=True)
