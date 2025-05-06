@@ -58,4 +58,6 @@ urllib3
 Werkzeug
 wrapt
 authlib
+gunicorn
+
 Flask-Mail
