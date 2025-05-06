@@ -91,7 +91,7 @@ def profile():
     if token is None:
         return redirect(url_for('login'))
 
-    # client_id = '630606159234-p9u62ohjjdoqsngd5pgd7ob2salaivio.apps.googleusercontent.com',
+    client_id = '630606159234-p9u62ohjjdoqsngd5pgd7ob2salaivio.apps.googleusercontent.com',
     oauth = OAuth2Session(client_id, token=token)
     user_info = oauth.get('https://www.googleapis.com/oauth2/v3/userinfo').json()
 
